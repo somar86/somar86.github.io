@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Saad Omar"
-  # avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Data Science Champion at SLB. Physics-informed AI, inversion & computational electromagnetics. 20+ patents."
   location         : "Greater Boston Area, MA, USA"
   email            : "saad.omar.dr@gmail.com"
