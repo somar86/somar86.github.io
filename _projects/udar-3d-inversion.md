@@ -42,6 +42,8 @@ These results are from the SPWLA 2024 paper. Each case starts from a geologicall
 
 {% include figure popup=true image_path="/assets/images/projects/udar-3d-inversion/fig11-residual-oil-inversion.jpg" alt="3D imaging of resistive oil-bearing sand channels in shale" caption="Residual oil: imaging two resistive, oil-bearing sand channels inside a conductive shale as the tool moves from 3 m to 39 m. *Omar et al., SPWLA 2024, Fig. 11.*" %}
 
+{% include figure popup=true image_path="/assets/images/projects/udar-3d-inversion/rn-full-vs-fast-mode-3d-voxel-inversion.png" alt="3D voxel inversion in full mode vs fast mode at successive tool positions" caption="3D voxel inversion in full mode (top) and fast mode (bottom) at successive tool positions, with the data misfit (χ²) above each snapshot. Both modes converge to comparable 3D images and misfits as the tool advances. *From the 3D voxel inversion research note, S. Omar et al.*" %}
+
 ## Impact
 
 - High-resolution **3D reservoir mapping and geosteering**, giving drillers and geoscientists a picture of structure and fluids in all directions around the well

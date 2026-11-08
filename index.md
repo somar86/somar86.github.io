@@ -24,4 +24,16 @@ I am currently a **Data Science Champion at SLB Reservoir Performance HQ** in Ca
 - **Computational modeling:** inversion and imaging, semi-analytical and finite-element methods, integral equations, fast solvers, digital twins
 - **Platforms:** Python (PyTorch, TensorFlow, JAX), MATLAB, C++/Fortran, Docker/Kubernetes, cloud (GCP, Azure, AWS)
 
-See my [projects](/projects/), [publications](/publications/), and [CV](/cv/).
+## Latest articles
+
+{% if site.posts.size > 0 -%}
+{% for post in site.posts limit:3 -%}
+- **[{{ post.title }}]({{ post.url | relative_url }})** ({{ post.date | date: "%B %-d, %Y" }}): {{ post.excerpt | strip_html | strip_newlines | strip | truncate: 180 }}
+{% endfor %}
+
+[All articles →](/articles/)
+{%- else -%}
+Technical articles are coming soon on the [Articles](/articles/) page.
+{%- endif %}
+
+See my [projects](/projects/), [articles](/articles/), [publications](/publications/), and [CV](/cv/).
