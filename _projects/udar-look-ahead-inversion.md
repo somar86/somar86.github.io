@@ -4,6 +4,8 @@ excerpt: "Inventor and developer of the industry's first look-ahead inversion of
 order: 2
 toc: true
 tags: [inversion, electromagnetics, look-ahead, drilling]
+header:
+  teaser: /assets/images/projects/udar-look-ahead-inversion/fig04-sand-channel-look-ahead-result.png
 ---
 
 **Role:** Inventor and lead developer · **Organization:** Schlumberger-Doll Research / SLB
@@ -18,9 +20,21 @@ Logging-while-drilling sensors sit behind the bit, so conventional interpretatio
 
 ## Approach
 
-- **Pixel-based look-around/look-ahead inversion:** the region around and ahead of the bit is parameterized as pixels, letting the inversion recover features not yet intersected by the well.
-- **Sensitivity-aware design:** the inversion uses the portion of the deep-reading measurement response that is sensitive to formation ahead of the sensor.
-- **Real-time workflow:** designed to run while drilling in horizontal and high-angle wells, supporting in-situ decisions such as landing, stopping, or steering away from hazards.
+- **Multistep pixel-based workflow:** a 1D model-based look-around inversion, optionally refined by a 2D pixel-based look-around inversion, characterizes the formation already drilled.
+- **Warm-started look-ahead:** the look-around structure jump-starts continually running **2D pixel-based look-ahead inversions** over a data window that shifts with each new measurement. This maximally extracts the look-ahead sensitivity of the tilted-transmitter, ultra-deep directional resistivity measurements.
+- **Real-time workflow** for horizontal and high-angle wells, supporting in-situ decisions such as landing, stopping, or steering away from hazards.
+
+## Figures
+
+These figures are from the published patent ([WO 2024/091651 A1](https://patents.google.com/patent/WO2024091651A1/en), granted as [US 12,467,353 B2](https://patents.google.com/patent/US12467353B2/en)).
+
+{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/fig01-look-behind-around-ahead-zones.png" alt="Tool layout and look-behind, look-around, and look-ahead zones" caption="Tool layout, with a tilted transmitter near the bit and receivers behind it, defining the look-behind, look-around, and look-ahead zones and the look-ahead window in front of the transmitter. *US 12,467,353 B2, FIG. 1.*" %}
+
+{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/fig02-look-ahead-inversion-workflow.png" alt="Look-ahead inversion workflow flowchart" caption="The real-time workflow: a 1D look-around inversion seeds an optional 2D pixel-based look-around step, followed by continually running 2D pixel-based look-ahead inversions as new data arrive. *US 12,467,353 B2, FIG. 2.*" %}
+
+{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/fig03-fault-case-look-ahead-result.png" alt="Fault case: true model and look-around vs look-ahead inversions" caption="Fault case: a three-layer formation with an abrupt resistivity break (top). The 2D look-ahead inversion predicts the break ahead of the transmitter, which the 1D look-around inversion cannot. *US 12,467,353 B2, FIG. 3.*" %}
+
+{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/fig04-sand-channel-look-ahead-result.png" alt="Look-ahead imaging of two staggered sand channels" caption="Two staggered sand channels imaged every 5 ft as the tool advances, with the true model at the bottom. The end of the upper sand is predicted ahead of the bit. *US 12,467,353 B2, FIG. 4.*" %}
 
 ## Impact
 

@@ -1,7 +1,7 @@
 ---
 title: "DLIS to ANP Converter: Automating Data Delivery"
 excerpt: "An app that converts DLIS files to ANP delivery format automatically, turning a week of back-and-forth across 20 people into seconds and increasing revenue 10x."
-order: 3
+order: 7
 toc: true
 tags: [automation, software, data engineering]
 ---

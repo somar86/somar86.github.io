@@ -1,7 +1,7 @@
 ---
 title: "Computer-Vision License-Plate Recognition for Parking Automation"
 excerpt: "An end-to-end computer-vision system that recognizes license plates and automates parking-lot entry, exit, and management."
-order: 7
+order: 11
 toc: true
 tags: [computer vision, AI, embedded systems]
 ---
