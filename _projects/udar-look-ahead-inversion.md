@@ -1,6 +1,6 @@
 ---
 title: "Look-Ahead Inversion: Imaging Ahead of the Bit"
-excerpt: "Inventor and developer of the industry's first look-ahead inversion of ultra-deep resistivity measurements, imaging up to 70 ft ahead of the tool."
+excerpt: "Inventor and developer of the industry's first look-ahead inversion of ultra-deep resistivity measurements, imaging up to about 40 ft ahead of the transmitter."
 order: 2
 toc: true
 tags: [inversion, electromagnetics, look-ahead, drilling]
@@ -12,7 +12,7 @@ header:
 
 ## Overview
 
-I invented and developed the industry's **first look-ahead inversion of ultra-deep resistivity measurements**. It images the formation **up to 70 ft ahead of where the tool currently is**, so drillers see what is coming instead of reacting after the bit has already crossed it.
+I invented and developed the industry's **first look-ahead inversion of ultra-deep resistivity measurements**. It images the formation **up to about 40 ft ahead of the transmitter** in favorable conditions, so drillers see what is coming instead of reacting after the bit has already crossed it.
 
 ## The problem
 
@@ -46,7 +46,7 @@ Synthetic case studies from the research note: S. Omar, J. Liu, and L. Liang, *2
 
 {% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/rn2022-fig15-two-sand-channels-geosphere-look-ahead.jpg" alt="Two staggered sand channels imaged ahead of the transmitter" caption="Two staggered sand channels: the end of the upper sand is predicted about 30 ft ahead of the transmitter, and the lower sand is detected once the transmitter is above it (true model at bottom right). *Omar, Liu & Liang, 2022, Fig. 15.*" %}
 
-{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/rn2022-fig18-sand-channel-la3d-window-selection.jpg" alt="Old vs optimized data-window selection" caption="Old (left) and optimized (right) data-window selection: the optimized window predicts the end of the reservoir about 38 ft ahead of the transmitter. *Omar, Liu & Liang, 2022, Fig. 18.*" %}
+{% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/rn2022-fig18-sand-channel-window-selection.jpg" alt="Old vs optimized data-window selection" caption="Old (left) and optimized (right) data-window selection: the optimized window predicts the end of the reservoir about 38 ft ahead of the transmitter. *Omar, Liu & Liang, 2022, Fig. 18.*" %}
 
 {% include figure popup=true image_path="/assets/images/projects/udar-look-ahead-inversion/rn2022-fig21-water-coning-look-ahead.jpg" alt="Water cone imaged ahead of the transmitter" caption="Water coning: a water cone rising toward the well is imaged about 30–35 ft ahead of the transmitter, with and without the deepest receiver spacing. *Omar, Liu & Liang, 2022, Fig. 21.*" %}
 
