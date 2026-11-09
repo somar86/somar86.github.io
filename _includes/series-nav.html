@@ -1,0 +1,30 @@
+{%- comment -%}
+  Series navigation for posts with `series` and `part` in their front matter.
+  include series-nav.html            box listing every part of the series
+  include series-nav.html next=true  one-line pointer to the next part
+  Parts that are not published yet are shown as "coming soon".
+{%- endcomment -%}
+{%- assign series = site.data.series[page.series] -%}
+{%- assign series_posts = site.posts | where: "series", page.series -%}
+{%- if include.next -%}
+{%- assign next_part = page.part | plus: 1 -%}
+{%- if next_part <= series.parts.size -%}
+{%- assign next_post = series_posts | where: "part", next_part | first -%}
+<p class="series-nav__next"><strong>Next in the series:</strong>
+{% if next_post -%}
+<a href="{{ next_post.url | relative_url }}">Part {{ next_part }}: {{ series.parts[page.part] }} &rarr;</a>
+{%- else -%}
+Part {{ next_part }}: {{ series.parts[page.part] }} <em>(coming soon)</em>
+{%- endif %}</p>
+{%- endif -%}
+{%- else -%}
+<nav class="notice--info series-nav" aria-label="{{ series.title }} series">
+<p><strong>{{ series.title }}</strong>: a {{ series.parts.size }}-part series</p>
+<ol>
+{%- for part_title in series.parts -%}
+{%- assign part_post = series_posts | where: "part", forloop.index | first %}
+<li>{% if forloop.index == page.part %}<strong>{{ part_title }}</strong> (this article){% elsif part_post %}<a href="{{ part_post.url | relative_url }}">{{ part_title }}</a>{% else %}{{ part_title }} <em>(coming soon)</em>{% endif %}</li>
+{%- endfor %}
+</ol>
+</nav>
+{%- endif -%}

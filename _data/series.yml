@@ -1,0 +1,11 @@
+# Multi-part article series. A post joins a series with `series: <key>` and
+# `part: <number>` in its front matter; _includes/series-nav.html links every
+# published part and marks the rest "coming soon".
+ai-for-physics:
+  title: "AI for Physics-Based Problems"
+  parts:
+    - "Why Physics Problems Are Different"
+    - "Fast Simulators and Learned Inverses"
+    - "Real-World Data and Physics as Referee"
+    - "Discovering Physics and Generative Models"
+    - "A Practical Checklist"
