@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/projects/npu-int8-inversion/icad2025-fig01-multitask-learning-architecture.jpg
 ---
 
-In [Part 1](/articles/ai-for-physics-based-problems/), I described what makes physics problems different from typical machine-learning tasks: labels are scarce, the problems are ill-posed, users need trust, and deployment is constrained. The classical answer is regularized inversion, which is rigorous but slow, because every iteration calls the forward model $$F$$. This part covers the first two patterns, which attack that speed bottleneck: making the simulator fast enough to teach a network, and then letting the network replace the inversion at run time.
+In [Part 1](/blogs/ai-for-physics-based-problems/), I described what makes physics problems different from typical machine-learning tasks: labels are scarce, the problems are ill-posed, users need trust, and deployment is constrained. The classical answer is regularized inversion, which is rigorous but slow, because every iteration calls the forward model $$F$$. This part covers the first two patterns, which attack that speed bottleneck: making the simulator fast enough to teach a network, and then letting the network replace the inversion at run time.
 
 {% include series-nav.html %}
 

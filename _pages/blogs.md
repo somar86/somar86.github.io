@@ -1,7 +1,8 @@
 ---
 title: "Blogs"
 layout: posts
-permalink: /articles/
+permalink: /blogs/
+redirect_from: /articles/
 author_profile: true
 ---
 

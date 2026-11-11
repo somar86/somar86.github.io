@@ -19,10 +19,10 @@ Source for **https://somar86.github.io**. This file explains how the site is put
 | Site title and description | browser tab, search results | `_config.yml`, top section |
 | Projects list | `/projects/` | `_pages/projects.md` (built automatically from `_projects/`) |
 | One project | `/projects/<file-name>/` | `_projects/<file-name>.md` |
-| Articles list | `/articles/` | `_pages/articles.md` (built automatically from `_posts/`) |
-| One article | `/articles/<file-name>/` | `_posts/YYYY-MM-DD-<file-name>.md` |
+| Blogs list | `/blogs/` | `_pages/blogs.md` (built automatically from `_posts/`) |
+| One blog | `/blogs/<file-name>/` | `_posts/YYYY-MM-DD-<file-name>.md` |
 | Unpublished drafts | not on the site | `_drafts/` |
-| Article series box | top of each series part | `_data/series.yml` and `_includes/series-nav.html` |
+| Blog series box | top of each series part | `_data/series.yml` and `_includes/series-nav.html` |
 | Publications & patents | `/publications/` | `_pages/publications.md` |
 | CV | `/cv/` | `_pages/cv.md` |
 | Images | | `assets/images/` (project figures in `assets/images/projects/<project>/`, profile photo `assets/images/bio-photo.jpg`) |
@@ -55,14 +55,15 @@ Text in Markdown...
 | Field | Used in | What it does |
 |---|---|---|
 | `title` | everything | Page heading and browser-tab title |
-| `excerpt` | projects, articles | Summary shown on the Projects/Articles lists, the home page, and LinkedIn/social previews |
+| `excerpt` | projects, blogs | Summary shown on the Projects/Blogs lists, the home page, and LinkedIn/social previews |
 | `order` | projects | Position on the Projects page (1 = first) |
-| `tags` | projects, articles | Tags shown at the bottom of the page (see [Known issues](#known-issues)) |
+| `tags` | projects, blogs | Tags shown at the bottom of the page (see [Known issues](#known-issues)) |
 | `toc` | any page | `true` adds a table of contents on the right, built from the `##` headings |
 | `mathjax` | any page | `true` turns on LaTeX equations |
-| `header: teaser:` | projects, articles | Thumbnail image used in related-post lists and previews |
-| `permalink` | `_pages/`, `index.md` | The page's URL (projects and articles get theirs from the file name) |
-| `series`, `part` | articles | Puts an article in a series (see [Start a new article series](#start-a-new-article-series)) |
+| `header: teaser:` | projects, blogs | Thumbnail image used in related-post lists and previews |
+| `permalink` | `_pages/`, `index.md` | The page's URL (projects and blogs get theirs from the file name) |
+| `redirect_from` | any page | An old URL that should forward to this page, e.g. `redirect_from: /articles/` |
+| `series`, `part` | blogs | Puts a blog in a series (see [Start a new blog series](#start-a-new-blog-series)) |
 
 Front matter rules:
 - It must be the very first thing in the file, between two lines of exactly `---`.
@@ -96,11 +97,11 @@ Edit the matching section of `_pages/publications.md` and copy the format of the
 
 Edit `_pages/cv.md`. Each job is a `###` heading followed by an italic line (`*Place · Dates*`) and a paragraph or bullet list.
 
-### Write and publish an article
+### Write and publish a blog
 
-1. Copy `_drafts/article-template.md` to `_drafts/my-article.md` and write it. Its comments explain every field. Files in `_drafts/` are **never published**, so you can work on them over several commits.
-2. To publish, **move** the file to `_posts/` and add the date in front of the name: `_posts/2026-12-01-my-article.md`. The URL becomes `/articles/my-article/`.
-3. Commit and push. The article appears on `/articles/` and in the home page's "Latest articles" list.
+1. Copy `_drafts/blog-template.md` to `_drafts/my-blog.md` and write it. Its comments explain every field. Files in `_drafts/` are **never published**, so you can work on them over several commits.
+2. To publish, **move** the file to `_posts/` and add the date in front of the name: `_posts/2026-12-01-my-blog.md`. The URL becomes `/blogs/my-blog/`.
+3. Commit and push. The blog appears on `/blogs/` and in the home page's "Latest blogs" list.
 
 **About dates:** a post dated in the future is hidden when the site is built, and the site is only built when you push. So a post dated December 1 does not appear on December 1 by itself. It appears with your first push on or after that date.
 
@@ -137,7 +138,7 @@ The footer has its own `footer: links:` list in the same file. Its entries have 
 
 Set `minimal_mistakes_skin` near the top of `_config.yml` to one of the names listed in the comment beside it, such as `"air"`, `"mint"`, or `"dark"`.
 
-### Start a new article series
+### Start a new blog series
 
 1. Add an entry to `_data/series.yml` with a key, a `title`, and the list of part titles.
 2. In each part's front matter, add `series: <key>` and `part: <number>`.
@@ -173,13 +174,13 @@ If the build fails, open the failed run in the Actions tab. The log names the fi
 
 - **Capital letters in file names.** Windows treats `Fig1.jpg` and `fig1.jpg` as the same file, but the live site does not. A picture that shows up locally but is broken online usually has a capitalization mismatch. Use lowercase file names throughout.
 - **Spaces in file names.** Use hyphens instead: `fig01-field-log.jpg`.
-- **Renaming a file changes its URL.** Search the repo for the old name and update every link to it, including links from LinkedIn posts you have already shared.
+- **Renaming a file changes its URL.** Search the repo for the old name and update every link to it. For links you can't edit, such as LinkedIn posts you have already shared, add `redirect_from: /old/url/` to the renamed page's front matter so the old address forwards to the new one.
 - **A mistake in `_config.yml` breaks the whole site.** It is YAML: keep the indentation exactly as it is and use spaces, not tabs.
 - **A post that doesn't appear.** Check that it is in `_posts/` (not `_drafts/`), that its name starts with `YYYY-MM-DD-`, and that the date is not in the future.
 
 ## Known issues
 
-- **Tag links lead to a missing page.** Tags at the bottom of articles and projects link to `/tags/`, which does not exist, so readers get a "page not found" error. The fix is a small `_pages/tags.md` page, or set `show_taxonomy: false` in `_config.yml` to hide the tags.
+- **Tag links lead to a missing page.** Tags at the bottom of blogs and projects link to `/tags/`, which does not exist, so readers get a "page not found" error. The fix is a small `_pages/tags.md` page, or set `show_taxonomy: false` in `_config.yml` to hide the tags.
 
 ## Previewing locally
 

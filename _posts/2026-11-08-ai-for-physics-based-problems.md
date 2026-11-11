@@ -4,6 +4,7 @@ excerpt: "Physics problems are not typical machine-learning problems. The first 
 tags: [AI, physics-informed ML, inversion, edge AI, electromagnetics]
 series: ai-for-physics
 part: 1
+redirect_from: /articles/ai-for-physics-based-problems/
 mathjax: true
 header:
   teaser: /assets/images/projects/udar-3d-inversion/fig06-true-vs-inverted-sand-injectites.jpg

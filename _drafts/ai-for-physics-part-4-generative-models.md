@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/projects/udar-3d-inversion/fig04-3d-voxel-inversion-l-shaped-model.jpg
 ---
 
-In [Part 2](/articles/ai-for-physics-part-2-fast-simulators/) and [Part 3](/articles/ai-for-physics-part-3-physics-as-referee/), AI played one main role: a fast approximation of physics we already know how to compute, trained on simulations and kept honest by the forward model. The last two patterns go further. The first uses data to *find* physics, in the form of equations engineers can trust. The second takes on the ill-posedness from [Part 1](/articles/ai-for-physics-based-problems/) directly, with models that return a distribution of plausible answers instead of a single one.
+In [Part 2](/blogs/ai-for-physics-part-2-fast-simulators/) and [Part 3](/blogs/ai-for-physics-part-3-physics-as-referee/), AI played one main role: a fast approximation of physics we already know how to compute, trained on simulations and kept honest by the forward model. The last two patterns go further. The first uses data to *find* physics, in the form of equations engineers can trust. The second takes on the ill-posedness from [Part 1](/blogs/ai-for-physics-based-problems/) directly, with models that return a distribution of plausible answers instead of a single one.
 
 {% include series-nav.html %}
 

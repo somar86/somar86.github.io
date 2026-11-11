@@ -11,10 +11,10 @@ header:
 
 Over the previous four parts, I set up the problem and described six patterns for combining AI with physics-based inversion:
 
-- [Part 1](/articles/ai-for-physics-based-problems/) set the stage: why physics problems resist plain supervised learning, and the regularized inversion that every pattern builds on.
-- [Part 2](/articles/ai-for-physics-part-2-fast-simulators/): make the simulator fast, then let it teach (Pattern 1), and learn the inverse when speed is the bottleneck (Pattern 2).
-- [Part 3](/articles/ai-for-physics-part-3-physics-as-referee/): blend lab, simulation, and field data from the start (Pattern 3), and keep the physics in the loop as the referee (Pattern 4).
-- [Part 4](/articles/ai-for-physics-part-4-generative-models/): use AI to discover physics, not only to approximate it (Pattern 5), and use generative models for problems with many answers (Pattern 6).
+- [Part 1](/blogs/ai-for-physics-based-problems/) set the stage: why physics problems resist plain supervised learning, and the regularized inversion that every pattern builds on.
+- [Part 2](/blogs/ai-for-physics-part-2-fast-simulators/): make the simulator fast, then let it teach (Pattern 1), and learn the inverse when speed is the bottleneck (Pattern 2).
+- [Part 3](/blogs/ai-for-physics-part-3-physics-as-referee/): blend lab, simulation, and field data from the start (Pattern 3), and keep the physics in the loop as the referee (Pattern 4).
+- [Part 4](/blogs/ai-for-physics-part-4-generative-models/): use AI to discover physics, not only to approximate it (Pattern 5), and use generative models for problems with many answers (Pattern 6).
 
 This final part turns them into the checklist I use in practice.
 

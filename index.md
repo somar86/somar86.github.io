@@ -24,16 +24,16 @@ I am currently based in Cambridge, MA, where I lead a cross-functional team of d
 - **Computational physics:** modeling, inversion and imaging, semi-analytical and finite-element methods, integral equations, finite elements, fast solvers and digital twins for industrial applications
 - **Platforms:** Python (PyTorch, TensorFlow, full AI/ML stack), MATLAB, C++/Fortran, Docker/Kubernetes, cloud (GCP, Azure, AWS)
 
-## Latest articles
+## Latest blogs
 
 {% if site.posts.size > 0 -%}
 {% for post in site.posts limit:3 -%}
 - **[{{ post.title }}]({{ post.url | relative_url }})** ({{ post.date | date: "%B %-d, %Y" }}): {{ post.excerpt | strip_html | strip_newlines | strip | truncate: 180 }}
 {% endfor %}
 
-[All articles →](/articles/)
+[All blogs →](/blogs/)
 {%- else -%}
-Technical articles are coming soon on the [Articles](/articles/) page.
+Technical blogs are coming soon on the [Blogs](/blogs/) page.
 {%- endif %}
 
-See my [projects](/projects/), [articles](/articles/), [publications](/publications/), and [CV](/cv/).
+See my [projects](/projects/), [blogs](/blogs/), [publications](/publications/), and [CV](/cv/).

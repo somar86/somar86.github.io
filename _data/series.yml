@@ -1,4 +1,4 @@
-# Multi-part article series. A post joins a series with `series: <key>` and
+# Multi-part blog series. A post joins a series with `series: <key>` and
 # `part: <number>` in its front matter; _includes/series-nav.html links every
 # published part and marks the rest "coming soon".
 ai-for-physics:

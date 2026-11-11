@@ -1,22 +1,22 @@
 ---
-# HOW TO PUBLISH AN ARTICLE
+# HOW TO PUBLISH A BLOG
 # 1. Copy this file to _posts/ and rename it YYYY-MM-DD-short-title.md
 #    (e.g. _posts/2026-11-15-physics-informed-inversion.md).
-#    The date in the filename is the publication date; the URL becomes /articles/short-title/.
-# 2. Edit the front matter below and write the article in Markdown.
-# 3. Put images in assets/images/articles/ and reference them as shown below.
-# 4. Commit and push; the article appears on /articles/ and on the home page.
+#    The date in the filename is the publication date; the URL becomes /blogs/short-title/.
+# 2. Edit the front matter below and write the blog in Markdown.
+# 3. Put images in assets/images/blogs/ and reference them as shown below.
+# 4. Commit and push; the blog appears on /blogs/ and on the home page.
 # Files in _drafts/ are never published, so you can keep work-in-progress here.
-title: "Article Title"
-excerpt: "One- or two-sentence summary shown in article lists and link previews."
+title: "Blog Title"
+excerpt: "One- or two-sentence summary shown in blog lists and link previews."
 tags: [inversion, AI]
-toc: true          # table of contents on the right; set false for short articles
+toc: true          # table of contents on the right; set false for short blogs
 mathjax: true      # enables LaTeX equations; set false if not needed
 header:
-  teaser: /assets/images/articles/example.jpg   # optional preview image
+  teaser: /assets/images/blogs/example.jpg   # optional preview image
 ---
 
-Opening paragraph: what problem this article addresses and why it matters.
+Opening paragraph: what problem this blog addresses and why it matters.
 
 ## Background
 
@@ -39,7 +39,7 @@ $$
 
 ## Figures
 
-{% include figure popup=true image_path="/assets/images/articles/example.jpg" alt="Short description of the image" caption="Figure caption. *Source, if any.*" %}
+{% include figure popup=true image_path="/assets/images/blogs/example.jpg" alt="Short description of the image" caption="Figure caption. *Source, if any.*" %}
 
 ## Code
 

@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/projects/multi-casing-corrosion/aip2017-fig12-field-log-three-casing-inversion.jpg
 ---
 
-[Part 2](/articles/ai-for-physics-part-2-fast-simulators/) showed how to buy speed: a fast simulator generates perfectly labeled training data, and a network trained on it replaces a slow inversion at run time, fast enough to run on an 8-bit edge processor. But speed alone does not make a tool engineers use. Two of the challenges from [Part 1](/articles/ai-for-physics-based-problems/) are still open: field data comes without labels, and users need to trust the answer. This part covers the two patterns that address them.
+[Part 2](/blogs/ai-for-physics-part-2-fast-simulators/) showed how to buy speed: a fast simulator generates perfectly labeled training data, and a network trained on it replaces a slow inversion at run time, fast enough to run on an 8-bit edge processor. But speed alone does not make a tool engineers use. Two of the challenges from [Part 1](/blogs/ai-for-physics-based-problems/) are still open: field data comes without labels, and users need to trust the answer. This part covers the two patterns that address them.
 
 {% include series-nav.html %}
 
