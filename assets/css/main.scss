@@ -5,5 +5,10 @@ search: false
 
 @charset "utf-8";
 
+// Base text size on small screens (theme default: 16px). Everything else scales
+// from it, and it grows on wider screens: x1.125 from 768px, x1.25 from 1024px,
+// and x1.375 from 1280px (14px here gives 15.75px, 17.5px, and 19.25px).
+$doc-font-size: 14px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

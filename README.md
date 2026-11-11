@@ -27,8 +27,9 @@ Source for **https://somar86.github.io**. This file explains how the site is put
 | CV | `/cv/` | `_pages/cv.md` |
 | Images | | `assets/images/` (project figures in `assets/images/projects/<project>/`, profile photo `assets/images/bio-photo.jpg`) |
 | Extra code in every page's `<head>` (MathJax) | | `_includes/head/custom.html` |
+| Text size and other style changes | every page | `assets/css/main.scss` |
 
-**Files you can leave alone.** These belong to the theme: `_layouts/`, `_sass/`, `assets/css/`, `assets/js/`, `_data/ui-text.yml`, and everything in `_includes/` except the two files named above. Edit them only if you want to change how *every* page looks. These are leftovers from the theme's own repository and are not used by your site: `.github/`, `Rakefile`, `package.json`, `staticman.yml`, `Gemfile`. Keep `LICENSE`: it is the theme's license, which asks that it stay with copies of the theme.
+**Files you can leave alone.** These belong to the theme: `_layouts/`, `_sass/`, `assets/js/`, `_data/ui-text.yml`, everything in `assets/css/` except `main.scss`, and everything in `_includes/` except the two files named above. Edit them only if you want to change how *every* page looks. These are leftovers from the theme's own repository and are not used by your site: `.github/`, `Rakefile`, `package.json`, `staticman.yml`, `Gemfile`. Keep `LICENSE`: it is the theme's license, which asks that it stay with copies of the theme.
 
 ## Anatomy of a content file
 
@@ -137,6 +138,10 @@ The footer has its own `footer: links:` list in the same file. Its entries have 
 ### Change the colors
 
 Set `minimal_mistakes_skin` near the top of `_config.yml` to one of the names listed in the comment beside it, such as `"air"`, `"mint"`, or `"dark"`.
+
+### Change the text size
+
+Change `$doc-font-size` in `assets/css/main.scss` (currently `14px`; the theme's default is `16px`). It sets the size of body text on phones, and everything else scales from it: headings, the menu, and the sidebar. Text grows automatically on wider screens, so 14px becomes about 19px on a large monitor. Use a smaller number for smaller text everywhere, or delete the line to go back to the theme's default.
 
 ### Start a new blog series
 
