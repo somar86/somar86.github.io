@@ -21,7 +21,7 @@ title                    : "Saad Omar, PhD"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Saad Omar"
-description              : "Computational research leader in physics-informed AI, inversion, and electromagnetics for the energy and semiconductor industries."
+description              : "AI and computational physics expert in energy and semiconductor industries."
 url                      : "https://somar86.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "somar86/somar86.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Saad Omar"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Champion at SLB. Physics-informed AI, inversion & computational electromagnetics. 20+ patents."
+  bio              : "Data Science Advisor: Physics-informed AI, computational physics modeling & inversion."
   location         : "Greater Boston Area, MA, USA"
   email            : "saad.omar.dr@gmail.com"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
@@ -143,29 +143,29 @@ author:
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
 
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url:
-      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+# # Site Footer
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-square-x-twitter"
+#       # url:
+#       # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-square-facebook"
+#       # url:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       # url:
+#     - label: "GitLab"
+#       icon: "fab fa-fw fa-gitlab"
+#       # url:
+#     - label: "Bitbucket"
+#       icon: "fab fa-fw fa-bitbucket"
+#       # url:
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       # url:
+#   since: "2013"
 
 
 # Reading Files
