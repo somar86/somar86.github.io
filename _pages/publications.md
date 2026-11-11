@@ -7,7 +7,7 @@ toc_label: "Contents"
 toc_sticky: true
 ---
 
-Compiled from [Google Scholar](https://scholar.google.com/citations?user=nkpQ6bQAAAAJ&hl=en) and [Google Patents](https://patents.google.com/?inventor=Saad+Omar&assignee=Schlumberger). Titles link to the publisher (DOI) or patent record. **→ project** links go to the related project page.
+<!-- Compiled from [Google Scholar](https://scholar.google.com/citations?user=nkpQ6bQAAAAJ&hl=en) and [Google Patents](https://patents.google.com/?inventor=Saad+Omar&assignee=Schlumberger). Titles link to the publisher (DOI) or patent record. **→ project** links go to the related project page. -->
 
 ## Patents
 
