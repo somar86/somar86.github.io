@@ -1,7 +1,7 @@
 ---
 title: "Single-Shot Correction for Low/High-Frequency EM Breakdown"
 excerpt: "An electromagnetics formulation that removes the need to stitch together separate low- and high-frequency solvers by correcting the root cause of numerical breakdown in a single shot."
-order: 10
+order: 11
 toc: true
 tags: [computational electromagnetics, numerical methods]
 header:

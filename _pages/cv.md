@@ -22,6 +22,8 @@ Led end-to-end AI project development and delivery with a cross-functional team 
 - **AI-enabled commercial offerings:** Developed the first-ever wireline cased-hole sdensity estimation as a new commercial product. Automated spectral corrections in C/O processing, cutting turnaround time by 80% and tripling GeoUnit's yearly revenue.
 - **AI-based discovery:** Derived closed-form analytical models predicting stimulation fluid entry points from water-hammer signals, enabling real-time precise stimulation operations.
 - **AI on NPUs:** Achieved first-ever real-time inversion of subsurface measurements on 8-bit integer NPUs for next-generation in-situ decision-making.
+- **Physics-based well selection:** Built a calibrated [coiled-tubing reach model](/projects/open-hole-reach-well-selection/) that predicts the percentage of open hole reached (%OH) within 2.3% of the simulator on held-out wells, screening a 500-well field in minutes and choosing the simplest tool configuration for each well.
+- **Data-center thermal modeling:** Developed a verified [3D finite-volume thermal model of liquid- and air-cooled GPU racks](/projects/gpu-rack-thermal-modeling/) (72 GPUs, hybrid direct-to-chip cooling), with closed-form design formulae that rank the cooling levers keeping GPUs below 100 °C.
 <!-- - **Transformers and diffusion models:** Applying novel architectures to real-time processing of [3D inversions of ultra-deep resistivity measurements](/projects/udar-3d-inversion/). -->
 
 ### Principal Scientist, Schlumberger-Doll Research
@@ -50,7 +52,7 @@ Funded by NSF and the Department of Defense, developed volume integral equation 
 
 - **Leadership & impact:** grant writing, stakeholder engagement, problem framing, AI use-case prioritization, tech transfer and commercialization, mentoring, patents/ and publications
 - **AI/ML:** physics-informed ML, deep learning (CNNs, Transformers, diffusion), DNN regression on GPUs and NPUs, classical ML and uncertainty quantification (PyMC/JAX)
-- **Computational modeling:** semi-analytical and FEM, inversions, imaging, optimization, and digital twins
+- **Computational modeling:** semi-analytical, FEM, and finite-volume (heat transfer) methods, inversions, imaging, optimization, and digital twins
 - **Platforms & MLOps:** Python (PyTorch/TensorFlow/JAX), MATLAB, R, SQL, C++/Fortran; Docker/Kubernetes, Terraform; GCP/Azure/AWS
 
 ## Leadership

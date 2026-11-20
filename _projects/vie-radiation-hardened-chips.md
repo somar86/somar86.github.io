@@ -1,7 +1,7 @@
 ---
 title: "3D Volume Integral Formulation for Chips in Harsh Radiation Environments"
 excerpt: "A new 3D volume integral formulation, built from first-principles physics, for co-designing semiconductor chips used in satellites, data centers, and other high-radiation environments."
-order: 9
+order: 10
 toc: true
 tags: [computational electromagnetics, semiconductors, space electronics]
 header:
