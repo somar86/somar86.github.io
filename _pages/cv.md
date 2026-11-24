@@ -17,13 +17,14 @@ Computational physics and AI leader delivering physics-informed AI, HPC-optimize
 
 Led end-to-end AI project development and delivery with a cross-functional team of 15 domain experts and 5 data scientists: framing business needs as AI use cases, prioritizing deployment scenarios and finally, building, deploying, evaluating, and commercializing digital solutions.
 
+- **LLMs and agents:** Built an [internal LLM research assistant](/projects/llm-research-assistant/) on open-weight models served with Ollama and custom-trained on 80,000+ oilfield-services research reports, so anyone in the organization can ask technical questions and get answers that cite their sources, with multi-agent cross-checking that corrects hallucinations.
 - **AI + optimization:** Developed and deployed EMIT-2D processing on top legacy tool to enable differentiating up to five metallic pipe corrosion states, generating an additional $30k per job in 'digital' revenue.
 - **End-to-end workflows:** From global operator (client) grants, built workflows converting in-situ NMR physics measurements into in-situ relative permeability and enhanced-recovery outputs, integrated with digital twins and the Techlog operational system.
 - **AI-enabled commercial offerings:** Developed the first-ever wireline cased-hole sdensity estimation as a new commercial product. Automated spectral corrections in C/O processing, cutting turnaround time by 80% and tripling GeoUnit's yearly revenue.
 - **AI-based discovery:** Derived closed-form analytical models predicting stimulation fluid entry points from water-hammer signals, enabling real-time precise stimulation operations.
 - **AI on NPUs:** Achieved first-ever real-time inversion of subsurface measurements on 8-bit integer NPUs for next-generation in-situ decision-making.
-- **Physics-based well selection:** Built a calibrated [coiled-tubing reach model](/projects/open-hole-reach-well-selection/) that predicts the percentage of open hole reached (%OH) within 2.3% of the simulator on held-out wells, screening a 500-well field in minutes and choosing the simplest tool configuration for each well.
-- **Data-center thermal modeling:** Developed a verified [3D finite-volume thermal model of liquid- and air-cooled GPU racks](/projects/gpu-rack-thermal-modeling/) (72 GPUs, hybrid direct-to-chip cooling), with closed-form design formulae that rank the cooling levers keeping GPUs below 100 °C.
+- **Physics-based well selection:** Built a calibrated [coiled-tubing reach model](/projects/open-hole-reach-well-selection/) that predicts the percentage of open hole reached (%OH) within 2.3 percentage points (mean absolute error) of a commercial simulator on held-out wells, screening a 500-well field in minutes and choosing the simplest tool configuration for each well.
+- **Data-center thermal modeling:** Developed a verified [3D finite-volume thermal model of liquid- and air-cooled GPU racks](/projects/gpu-rack-thermal-modeling/) (72 GPUs, hybrid direct-to-chip cooling), with closed-form design formulae that rank the cooling levers and set provisional targets for staying below 100 °C.
 <!-- - **Transformers and diffusion models:** Applying novel architectures to real-time processing of [3D inversions of ultra-deep resistivity measurements](/projects/udar-3d-inversion/). -->
 
 ### Principal Scientist, Schlumberger-Doll Research
@@ -51,7 +52,7 @@ Funded by NSF and the Department of Defense, developed volume integral equation 
 ## Expertise
 
 - **Leadership & impact:** grant writing, stakeholder engagement, problem framing, AI use-case prioritization, tech transfer and commercialization, mentoring, patents/ and publications
-- **AI/ML:** physics-informed ML, deep learning (CNNs, Transformers, diffusion), DNN regression on GPUs and NPUs, classical ML and uncertainty quantification (PyMC/JAX)
+- **AI/ML:** LLMs (open-weight models, retrieval-augmented generation, multi-agent verification), physics-informed ML, deep learning (CNNs, Transformers, diffusion), DNN regression on GPUs and NPUs, classical ML and uncertainty quantification (PyMC/JAX)
 - **Computational modeling:** semi-analytical, FEM, and finite-volume (heat transfer) methods, inversions, imaging, optimization, and digital twins
 - **Platforms & MLOps:** Python (PyTorch/TensorFlow/JAX), MATLAB, R, SQL, C++/Fortran; Docker/Kubernetes, Terraform; GCP/Azure/AWS
 

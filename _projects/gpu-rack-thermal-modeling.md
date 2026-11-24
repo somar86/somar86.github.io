@@ -1,7 +1,7 @@
 ---
 title: "Thermal Modeling of Liquid- and Air-Cooled GPU Racks"
 excerpt: "A verified 3D finite-volume thermal model of a 72-GPU rack with hybrid direct-to-chip liquid and air cooling, plus closed-form design formulae that rank the levers keeping GPUs below their temperature limit."
-order: 7
+order: 8
 toc: true
 mathjax: true
 tags: [thermal modeling, data centers, finite volume, digital twins, HPC]

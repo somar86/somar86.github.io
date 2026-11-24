@@ -88,7 +88,7 @@ The project appears on `/projects/` automatically, sorted by `order`.
 
 ### Reorder projects
 
-Change the `order:` number in each project's front matter. The current order runs from 1 (`udar-3d-inversion`) to 12 (`license-plate-recognition-parking`). Two projects with the same number are fine, but their relative order is then unpredictable.
+Change the `order:` number in each project's front matter. The current order runs from 1 (`udar-3d-inversion`) to 13 (`license-plate-recognition-parking`). Two projects with the same number are fine, but their relative order is then unpredictable.
 
 ### Add a publication or patent
 

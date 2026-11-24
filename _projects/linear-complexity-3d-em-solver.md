@@ -1,7 +1,7 @@
 ---
 title: "Linear-Complexity Full-Wave 3D EM Solver for Circuits"
 excerpt: "Inventor and developer of the semiconductor industry's first linear time complexity full 3D electromagnetics solver for circuit analysis at arbitrary frequency."
-order: 9
+order: 10
 toc: true
 tags: [computational electromagnetics, fast solvers, semiconductors, HPC]
 header:

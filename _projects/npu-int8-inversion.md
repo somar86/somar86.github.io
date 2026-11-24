@@ -1,7 +1,7 @@
 ---
 title: "Real-Time Physics Inversion on 8-bit Integer NPUs"
 excerpt: "First-ever deployment of regression-based physics inversion on 8-bit integer neural processing units, with near floating-point accuracy and a 17× speedup over the production inversion."
-order: 4
+order: 5
 toc: true
 tags: [AI, edge computing, quantization, inversion]
 header:

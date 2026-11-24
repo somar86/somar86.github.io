@@ -1,7 +1,7 @@
 ---
 title: "Physics-Informed Deep Learning for Cased-Hole Spectroscopy"
 excerpt: "A deep learning pipeline with mixed-data transfer learning that automates completion-offset corrections in neutron-induced gamma-ray spectroscopy, replacing a manual, expert-driven iterative workflow."
-order: 5
+order: 6
 toc: true
 tags: [AI, deep learning, transfer learning, petrophysics]
 header:

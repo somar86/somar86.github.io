@@ -4,7 +4,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-A selection of projects spanning subsurface imaging, well intervention, data-center thermal modeling, computational electromagnetics, AI, computer vision, and workflow automation.
+A selection of projects spanning subsurface imaging, well intervention, data-center thermal modeling, computational electromagnetics, AI and LLM systems, computer vision, and workflow automation.
 
 {% assign projects = site.projects | sort: "order" -%}
 {% for project in projects -%}
